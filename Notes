@@ -1,0 +1,159 @@
+Q: How to exit VIM?
+A: 
+:q - quit
+:wq - save and quit
+:q! - quit and do not save
+
+Q: Save and do not quit?
+A:
+:w - save
+
+Q: How to move cursor around?
+A: 
+j - down
+k - up
+l - go to the right
+h - go to the left
+
+Q: Insert stuff?
+A:
+i - insert
+
+Q: Start typing commands again?
+A:
+ESC button
+
+Q: delete whole line
+A:
+press d twice - deletes whole line.
+D - delete the rest of the line
+C - delete the rest of the line and puts you in insert mode
+dt } - deletes rest of line up until }
+ct } - same as above but puts in insert mode after
+
+Q: Go to top of page / bottom of page?
+A:
+G - page down
+gg - go back up
+
+Q: Navigate blocks of code
+A:
+{ - go down block of code
+} - go up a block
+
+Q: Go down a specific number of lines?
+A:
+20j - go down 20 lines
+50k - 50 lines up
+10l - 10 lines to the right
+
+Q: undo?
+A:
+u - undo
+
+Q: redo?
+A: 
+control - r
+
+Q: copy to clipboard?
+A: 
+yy - copy to clipboard
+
+Q: paste?
+A:
+p - paste below
+P - paste above
+
+Q: Select multiple things?
+A: 
+Called visual mode
+V - selects group and can see its selected
+
+Q: Insert line?
+o - adds new line and puts you in insert mode (you'll need to press ESC after)
+O - new line above
+
+Q: Go to next word?
+A: 
+w - go to next word
+W - goes to next word ignoring spaces / punctuation
+b - got back word 
+
+Q: Go to specific line?
+A:
+:30 - goes to line 30
+
+Q: Go to beginning of line?
+A: 
+0 - press zero
+
+Q: Start of line?
+A:
+^ - takes you to beginning of line
+
+Q: Go to a character in the line?
+A: 
+t[character] - goes one space back the character
+f[character] - goes on it
+
+Q: Find end of a curly brace { ?
+A: 
+% - press percent sign, will show you end of { }
+
+Q: change something?
+A:
+c - change
+cw - change word (goes into insert mode)
+
+Q: Find the instances of where a word is used?
+* - jumps around the file to see where that word is
+
+25min
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+Q:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
